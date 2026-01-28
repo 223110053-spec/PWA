@@ -1,0 +1,2202 @@
+[
+  {
+    "model": "mattel.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Juguete niños #1",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "897.32",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Juguete niños #2",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "624.98",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Juguete niños #3",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "289.38",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Juguete niños #4",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1119.73",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Juguete niños #5",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1033.13",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Juguete niños #6",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "331.68",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 7,
+    "fields": {
+      "nombre": "Juguete niños #7",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "749.04",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 8,
+    "fields": {
+      "nombre": "Juguete niños #8",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "257.24",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 9,
+    "fields": {
+      "nombre": "Juguete niños #9",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1152.19",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 10,
+    "fields": {
+      "nombre": "Juguete niños #10",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "277.67",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 11,
+    "fields": {
+      "nombre": "Juguete niños #11",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "375.07",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 12,
+    "fields": {
+      "nombre": "Juguete niños #12",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1455.79",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 13,
+    "fields": {
+      "nombre": "Juguete niños #13",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "809.59",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 14,
+    "fields": {
+      "nombre": "Juguete niños #14",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1352.7",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 15,
+    "fields": {
+      "nombre": "Juguete niños #15",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "239.23",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 16,
+    "fields": {
+      "nombre": "Juguete niños #16",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1292.87",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 17,
+    "fields": {
+      "nombre": "Juguete niños #17",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "727.35",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 18,
+    "fields": {
+      "nombre": "Juguete niños #18",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "259.39",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 19,
+    "fields": {
+      "nombre": "Juguete niños #19",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "959.78",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 20,
+    "fields": {
+      "nombre": "Juguete niños #20",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1013.43",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 21,
+    "fields": {
+      "nombre": "Juguete niños #21",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "168.94",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 22,
+    "fields": {
+      "nombre": "Juguete niños #22",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "617.98",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 23,
+    "fields": {
+      "nombre": "Juguete niños #23",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1443.64",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 24,
+    "fields": {
+      "nombre": "Juguete niños #24",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "759.9",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 25,
+    "fields": {
+      "nombre": "Juguete niños #25",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "427.18",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 26,
+    "fields": {
+      "nombre": "Juguete niños #26",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "710.53",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 27,
+    "fields": {
+      "nombre": "Juguete niños #27",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "376.83",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 28,
+    "fields": {
+      "nombre": "Juguete niños #28",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1403.65",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 29,
+    "fields": {
+      "nombre": "Juguete niños #29",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "352.14",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 30,
+    "fields": {
+      "nombre": "Juguete niños #30",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "849.68",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 31,
+    "fields": {
+      "nombre": "Juguete niños #31",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "184.0",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 32,
+    "fields": {
+      "nombre": "Juguete niños #32",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "160.85",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 33,
+    "fields": {
+      "nombre": "Juguete niños #33",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "754.97",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 34,
+    "fields": {
+      "nombre": "Juguete niños #34",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "248.64",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 35,
+    "fields": {
+      "nombre": "Juguete niños #35",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "330.54",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 36,
+    "fields": {
+      "nombre": "Juguete niños #36",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "534.15",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 37,
+    "fields": {
+      "nombre": "Juguete niños #37",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1006.33",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 38,
+    "fields": {
+      "nombre": "Juguete niños #38",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "202.98",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 39,
+    "fields": {
+      "nombre": "Juguete niños #39",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "270.04",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 40,
+    "fields": {
+      "nombre": "Juguete niños #40",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1053.64",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 41,
+    "fields": {
+      "nombre": "Juguete niños #41",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1226.65",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 42,
+    "fields": {
+      "nombre": "Juguete niños #42",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "857.96",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 43,
+    "fields": {
+      "nombre": "Juguete niños #43",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1051.37",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 44,
+    "fields": {
+      "nombre": "Juguete niños #44",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1247.28",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 45,
+    "fields": {
+      "nombre": "Juguete niños #45",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1245.73",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 46,
+    "fields": {
+      "nombre": "Juguete niños #46",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "389.56",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 47,
+    "fields": {
+      "nombre": "Juguete niños #47",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1198.82",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 48,
+    "fields": {
+      "nombre": "Juguete niños #48",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "441.62",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 49,
+    "fields": {
+      "nombre": "Juguete niños #49",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "927.67",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 50,
+    "fields": {
+      "nombre": "Juguete niños #50",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "692.47",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 51,
+    "fields": {
+      "nombre": "Juguete niños #51",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "440.24",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 52,
+    "fields": {
+      "nombre": "Juguete niños #52",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "608.27",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 53,
+    "fields": {
+      "nombre": "Juguete niños #53",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1273.61",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 54,
+    "fields": {
+      "nombre": "Juguete niños #54",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "979.76",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 55,
+    "fields": {
+      "nombre": "Juguete niños #55",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "276.92",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 56,
+    "fields": {
+      "nombre": "Juguete niños #56",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1047.04",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 57,
+    "fields": {
+      "nombre": "Juguete niños #57",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1206.5",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 58,
+    "fields": {
+      "nombre": "Juguete niños #58",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "878.46",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 59,
+    "fields": {
+      "nombre": "Juguete niños #59",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1094.34",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 60,
+    "fields": {
+      "nombre": "Juguete niños #60",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "518.03",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 61,
+    "fields": {
+      "nombre": "Juguete niños #61",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1050.5",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 62,
+    "fields": {
+      "nombre": "Juguete niños #62",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "729.38",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 63,
+    "fields": {
+      "nombre": "Juguete niños #63",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1397.09",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 64,
+    "fields": {
+      "nombre": "Juguete niños #64",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "298.01",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 65,
+    "fields": {
+      "nombre": "Juguete niños #65",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1385.22",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 66,
+    "fields": {
+      "nombre": "Juguete niños #66",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "735.05",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 67,
+    "fields": {
+      "nombre": "Juguete niños #67",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "368.6",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 68,
+    "fields": {
+      "nombre": "Juguete niños #68",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "329.12",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 69,
+    "fields": {
+      "nombre": "Juguete niños #69",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "303.3",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 70,
+    "fields": {
+      "nombre": "Juguete niños #70",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "898.92",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 71,
+    "fields": {
+      "nombre": "Juguete niños #71",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "938.57",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 72,
+    "fields": {
+      "nombre": "Juguete niños #72",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "785.97",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 73,
+    "fields": {
+      "nombre": "Juguete niños #73",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1488.6",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 74,
+    "fields": {
+      "nombre": "Juguete niños #74",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "869.98",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 75,
+    "fields": {
+      "nombre": "Juguete niños #75",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1184.08",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 76,
+    "fields": {
+      "nombre": "Juguete niños #76",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "468.63",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 77,
+    "fields": {
+      "nombre": "Juguete niños #77",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1419.74",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 78,
+    "fields": {
+      "nombre": "Juguete niños #78",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "298.44",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 79,
+    "fields": {
+      "nombre": "Juguete niños #79",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "848.88",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 80,
+    "fields": {
+      "nombre": "Juguete niños #80",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "383.57",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 81,
+    "fields": {
+      "nombre": "Juguete niños #81",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1247.6",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 82,
+    "fields": {
+      "nombre": "Juguete niños #82",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "429.25",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 83,
+    "fields": {
+      "nombre": "Juguete niños #83",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "197.08",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 84,
+    "fields": {
+      "nombre": "Juguete niños #84",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1218.15",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 85,
+    "fields": {
+      "nombre": "Juguete niños #85",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "150.16",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 86,
+    "fields": {
+      "nombre": "Juguete niños #86",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1022.07",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 87,
+    "fields": {
+      "nombre": "Juguete niños #87",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "996.45",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 88,
+    "fields": {
+      "nombre": "Juguete niños #88",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "359.25",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 89,
+    "fields": {
+      "nombre": "Juguete niños #89",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1131.04",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 90,
+    "fields": {
+      "nombre": "Juguete niños #90",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "788.84",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 91,
+    "fields": {
+      "nombre": "Juguete niños #91",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1083.26",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 92,
+    "fields": {
+      "nombre": "Juguete niños #92",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "446.08",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 93,
+    "fields": {
+      "nombre": "Juguete niños #93",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "761.56",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 94,
+    "fields": {
+      "nombre": "Juguete niños #94",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1478.35",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 95,
+    "fields": {
+      "nombre": "Juguete niños #95",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "425.52",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 96,
+    "fields": {
+      "nombre": "Juguete niños #96",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "467.09",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 97,
+    "fields": {
+      "nombre": "Juguete niños #97",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1331.49",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 98,
+    "fields": {
+      "nombre": "Juguete niños #98",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "809.64",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 99,
+    "fields": {
+      "nombre": "Juguete niños #99",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "177.43",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 100,
+    "fields": {
+      "nombre": "Juguete niños #100",
+      "descripcion": "Juguete divertido y educativo para niños. Ideal para jugar y aprender.",
+      "precio": "1481.67",
+      "categoria": "niños",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 101,
+    "fields": {
+      "nombre": "Juguete niñas #1",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "938.21",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 102,
+    "fields": {
+      "nombre": "Juguete niñas #2",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "550.53",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 103,
+    "fields": {
+      "nombre": "Juguete niñas #3",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "839.72",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 104,
+    "fields": {
+      "nombre": "Juguete niñas #4",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "900.76",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 105,
+    "fields": {
+      "nombre": "Juguete niñas #5",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "947.06",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 106,
+    "fields": {
+      "nombre": "Juguete niñas #6",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "359.68",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 107,
+    "fields": {
+      "nombre": "Juguete niñas #7",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1206.35",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 108,
+    "fields": {
+      "nombre": "Juguete niñas #8",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "998.59",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 109,
+    "fields": {
+      "nombre": "Juguete niñas #9",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1177.34",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 110,
+    "fields": {
+      "nombre": "Juguete niñas #10",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "853.32",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 111,
+    "fields": {
+      "nombre": "Juguete niñas #11",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1448.9",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 112,
+    "fields": {
+      "nombre": "Juguete niñas #12",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "256.58",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 113,
+    "fields": {
+      "nombre": "Juguete niñas #13",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "382.34",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 114,
+    "fields": {
+      "nombre": "Juguete niñas #14",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "898.05",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 115,
+    "fields": {
+      "nombre": "Juguete niñas #15",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "900.21",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 116,
+    "fields": {
+      "nombre": "Juguete niñas #16",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "548.28",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 117,
+    "fields": {
+      "nombre": "Juguete niñas #17",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "604.08",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 118,
+    "fields": {
+      "nombre": "Juguete niñas #18",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1328.43",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 119,
+    "fields": {
+      "nombre": "Juguete niñas #19",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1279.63",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 120,
+    "fields": {
+      "nombre": "Juguete niñas #20",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "942.02",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 121,
+    "fields": {
+      "nombre": "Juguete niñas #21",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1435.96",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 122,
+    "fields": {
+      "nombre": "Juguete niñas #22",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1423.5",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 123,
+    "fields": {
+      "nombre": "Juguete niñas #23",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1252.21",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 124,
+    "fields": {
+      "nombre": "Juguete niñas #24",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "197.49",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 125,
+    "fields": {
+      "nombre": "Juguete niñas #25",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "396.68",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 126,
+    "fields": {
+      "nombre": "Juguete niñas #26",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1050.71",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 127,
+    "fields": {
+      "nombre": "Juguete niñas #27",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1010.5",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 128,
+    "fields": {
+      "nombre": "Juguete niñas #28",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1090.0",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 129,
+    "fields": {
+      "nombre": "Juguete niñas #29",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1147.75",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 130,
+    "fields": {
+      "nombre": "Juguete niñas #30",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "619.08",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 131,
+    "fields": {
+      "nombre": "Juguete niñas #31",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1250.81",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 132,
+    "fields": {
+      "nombre": "Juguete niñas #32",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1249.49",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 133,
+    "fields": {
+      "nombre": "Juguete niñas #33",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1206.53",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 134,
+    "fields": {
+      "nombre": "Juguete niñas #34",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "154.94",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 135,
+    "fields": {
+      "nombre": "Juguete niñas #35",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "885.38",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 136,
+    "fields": {
+      "nombre": "Juguete niñas #36",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "348.53",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 137,
+    "fields": {
+      "nombre": "Juguete niñas #37",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "659.43",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 138,
+    "fields": {
+      "nombre": "Juguete niñas #38",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "420.54",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 139,
+    "fields": {
+      "nombre": "Juguete niñas #39",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "501.91",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 140,
+    "fields": {
+      "nombre": "Juguete niñas #40",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "526.72",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 141,
+    "fields": {
+      "nombre": "Juguete niñas #41",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "599.09",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 142,
+    "fields": {
+      "nombre": "Juguete niñas #42",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1323.57",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 143,
+    "fields": {
+      "nombre": "Juguete niñas #43",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1037.33",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 144,
+    "fields": {
+      "nombre": "Juguete niñas #44",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "173.52",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 145,
+    "fields": {
+      "nombre": "Juguete niñas #45",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1482.53",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 146,
+    "fields": {
+      "nombre": "Juguete niñas #46",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "185.44",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 147,
+    "fields": {
+      "nombre": "Juguete niñas #47",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "632.99",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 148,
+    "fields": {
+      "nombre": "Juguete niñas #48",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "329.22",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 149,
+    "fields": {
+      "nombre": "Juguete niñas #49",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1391.12",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 150,
+    "fields": {
+      "nombre": "Juguete niñas #50",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "316.87",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 151,
+    "fields": {
+      "nombre": "Juguete niñas #51",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "275.42",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 152,
+    "fields": {
+      "nombre": "Juguete niñas #52",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "837.34",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 153,
+    "fields": {
+      "nombre": "Juguete niñas #53",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "495.54",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 154,
+    "fields": {
+      "nombre": "Juguete niñas #54",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "858.45",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 155,
+    "fields": {
+      "nombre": "Juguete niñas #55",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "692.38",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 156,
+    "fields": {
+      "nombre": "Juguete niñas #56",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1148.41",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 157,
+    "fields": {
+      "nombre": "Juguete niñas #57",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1309.63",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 158,
+    "fields": {
+      "nombre": "Juguete niñas #58",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "563.17",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 159,
+    "fields": {
+      "nombre": "Juguete niñas #59",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "766.32",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 160,
+    "fields": {
+      "nombre": "Juguete niñas #60",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "815.21",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 161,
+    "fields": {
+      "nombre": "Juguete niñas #61",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1470.97",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 162,
+    "fields": {
+      "nombre": "Juguete niñas #62",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1054.06",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 163,
+    "fields": {
+      "nombre": "Juguete niñas #63",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "942.42",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 164,
+    "fields": {
+      "nombre": "Juguete niñas #64",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1209.18",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 165,
+    "fields": {
+      "nombre": "Juguete niñas #65",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1329.89",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 166,
+    "fields": {
+      "nombre": "Juguete niñas #66",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "450.97",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 167,
+    "fields": {
+      "nombre": "Juguete niñas #67",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1095.51",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 168,
+    "fields": {
+      "nombre": "Juguete niñas #68",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "954.09",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 169,
+    "fields": {
+      "nombre": "Juguete niñas #69",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1100.73",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 170,
+    "fields": {
+      "nombre": "Juguete niñas #70",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "492.88",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 171,
+    "fields": {
+      "nombre": "Juguete niñas #71",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1420.16",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 172,
+    "fields": {
+      "nombre": "Juguete niñas #72",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "267.44",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 173,
+    "fields": {
+      "nombre": "Juguete niñas #73",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "444.01",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 174,
+    "fields": {
+      "nombre": "Juguete niñas #74",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1124.56",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 175,
+    "fields": {
+      "nombre": "Juguete niñas #75",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1371.83",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 176,
+    "fields": {
+      "nombre": "Juguete niñas #76",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "921.65",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 177,
+    "fields": {
+      "nombre": "Juguete niñas #77",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1346.98",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 178,
+    "fields": {
+      "nombre": "Juguete niñas #78",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "159.49",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 179,
+    "fields": {
+      "nombre": "Juguete niñas #79",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "997.1",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 180,
+    "fields": {
+      "nombre": "Juguete niñas #80",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "500.56",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 181,
+    "fields": {
+      "nombre": "Juguete niñas #81",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1325.44",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 182,
+    "fields": {
+      "nombre": "Juguete niñas #82",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "972.98",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 183,
+    "fields": {
+      "nombre": "Juguete niñas #83",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "585.41",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 184,
+    "fields": {
+      "nombre": "Juguete niñas #84",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1337.51",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 185,
+    "fields": {
+      "nombre": "Juguete niñas #85",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1464.29",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 186,
+    "fields": {
+      "nombre": "Juguete niñas #86",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "502.65",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 187,
+    "fields": {
+      "nombre": "Juguete niñas #87",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "255.66",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 188,
+    "fields": {
+      "nombre": "Juguete niñas #88",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "630.69",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 189,
+    "fields": {
+      "nombre": "Juguete niñas #89",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1467.41",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 190,
+    "fields": {
+      "nombre": "Juguete niñas #90",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "470.39",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 191,
+    "fields": {
+      "nombre": "Juguete niñas #91",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1052.64",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 192,
+    "fields": {
+      "nombre": "Juguete niñas #92",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "865.88",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 193,
+    "fields": {
+      "nombre": "Juguete niñas #93",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "480.19",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 194,
+    "fields": {
+      "nombre": "Juguete niñas #94",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "299.16",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 195,
+    "fields": {
+      "nombre": "Juguete niñas #95",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "311.6",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 196,
+    "fields": {
+      "nombre": "Juguete niñas #96",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "583.9",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 197,
+    "fields": {
+      "nombre": "Juguete niñas #97",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1339.31",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 198,
+    "fields": {
+      "nombre": "Juguete niñas #98",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1134.83",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 199,
+    "fields": {
+      "nombre": "Juguete niñas #99",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "367.05",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  },
+  {
+    "model": "mattel.producto",
+    "pk": 200,
+    "fields": {
+      "nombre": "Juguete niñas #100",
+      "descripcion": "Juguete divertido y educativo para niñas. Ideal para jugar y aprender.",
+      "precio": "1286.09",
+      "categoria": "niñas",
+      "imagen": "/static/mattel/img/banner.svg"
+    }
+  }
+]

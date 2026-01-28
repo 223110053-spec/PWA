@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Mattel - {% block app_title %}{% endblock %}{% endblock %}
+{% block content %}
+
+<style>
+.navbar-custom {
+    background: rgba(245, 232, 208, 0.90) !important;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: none !important;
+    padding-top: 0.15rem !important;
+    padding-bottom: 0.15rem !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+    border-radius: 0 0 12px 12px;
+    font-size: 0.92rem !important;
+}
+.navbar-separator {
+    width: 100%;
+    height: 3px;
+    background-color: #000000aa;
+    margin: 0;
+}
+
+.navbar-brand img {
+    height: 60px !important;
+    width: auto !important;
+}
+
+.btn-custom {
+    background-color: #f5e8d0 !important; 
+    color: black !important;
+    font-weight: bold;
+    border: 2px solid black !important;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 0.6rem 1.8rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background-color: #c49a6c !important; 
+    color: black !important;
+    border-color: black !important;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.20);
+}
+
+.frase-gourmet {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #3e2723;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-right: auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.10);
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm navbar-custom">
+  <div class="container">
+
+    <a class="navbar-brand" href="{% url 'inicio' %}">
+      <img src="{% static 'mattel/img/logoi.png' %}" alt="Mattel">
+    </a>
+
+    <span class="frase-gourmet d-none d-lg-block">
+      El Rincón del Gourmet
+    </span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-black fw-semibold btn-custom" href="{% url 'inicio' %}">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black fw-semibold btn-custom" href="{% url 'productos' %}">Verduras y mas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black fw-semibold btn-custom" href="{% url 'distribuidor' %}">Conocenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black fw-semibold btn-custom" href="{% url 'contacto' %}">Contacto</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="navbar-separator" style="border-bottom: 3px solid #000000ff;"></div>
+
+<div class="container-fluid p-0">
+    {% block app_content %}
+
+    <a href="{% url 'productos' %}" class="btn-custom btn-lg shadow px-4 py-2">
+        Prepara Tu Proximo Platillo
+    </a>
+
+    {% endblock %}
+</div>
+
+
+<footer class="text-center text-white mt-0" 
+        style="padding-top: 1.5rem; padding-bottom: 1.5rem; font-size: 1.1rem; background-color: #c49a6c;">
+  <p class="mb-0">© 2025 MEXICO  | "El Rincón del Gourmet"</p>
+</footer>
+
+{% endblock %}

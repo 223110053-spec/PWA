@@ -1,0 +1,93 @@
+{% extends 'mattel/base.html' %}
+{% block app_title %}Contacto{% endblock %}
+{% block app_content %}
+
+
+<div style="background-color: #f5e8d0 ; padding: 20px; border-radius: 10px;">
+
+<div class="container mt-5 mb-5">
+  <h2 class="text-center fw-bold mb-4" style="margin-top: 40px;">Contáctanos</h2>
+  <p class="text-center text-muted mb-5">¿Tienes alguna receta que te gustaria compartir? ¡Nos encantará leerte!</p>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-success text-center fw-semibold shadow-sm rounded-3">
+            {{ message }}
+          </div>
+        {% endfor %}
+      {% endif %}
+
+      <form method="post" novalidate class="p-4 shadow-lg bg-white rounded-4 border border-light">
+        {% csrf_token %}
+        
+        <div class="mb-3">
+          <label class="form-label fw-semibold text-dark">{{ form.nombre.label }}</label>
+          {{ form.nombre }}
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label fw-semibold text-dark">{{ form.email.label }}</label>
+          {{ form.email }}
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label fw-semibold text-dark">{{ form.telefono.label }}</label>
+          {{ form.telefono }}
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label fw-semibold text-dark">{{ form.mensaje.label }}</label>
+          {{ form.mensaje }}
+        </div>
+
+        <div class="text-center mt-4">
+          <button type="submit" class="btn-enviar px-5 py-2 fw-semibold shadow-sm" style="border-radius: 10px;">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</div> 
+
+<style>
+ 
+  .btn-enviar {
+    background-color: #f2e6d8 !important;  
+    border: none !important;
+    color: #5a3e24 !important;              
+    transition: all 0.3s ease;
+  }
+
+  .btn-enviar:hover {
+    background-color: #c49a6c !important;   
+    color: white !important;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+
+  input:focus, textarea:focus {
+    border-color: #f5e8d0;
+    box-shadow: 0 0 8px #c49a6c;
+    outline: none;
+  }
+
+  textarea {
+    resize: none;
+    height: 120px;
+  }
+</style>
+
+{% endblock %}

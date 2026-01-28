@@ -1,0 +1,43 @@
+{% extends "mattel/base.html" %}
+{% load static %}
+
+{% block app_title %}Receta completa{% endblock %}
+
+{% block app_content %}
+
+<div class="container mt-4 p-4 rounded shadow" style="background:#ffffffdd">
+
+  
+    <h2 class="text-center mb-4">{{ receta.nombre }}</h2>
+
+    <p class="text-center fw-semibold">{{ receta.descripcion }}</p>
+
+    {% if receta.ingredientes.all %}
+    <h4 class="mt-4">Ingredientes utilizados:</h4>
+    <ul>
+        {% for ing in receta.ingredientes.all %}
+            <li>{{ ing.nombre }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if receta.pasos %}
+    <h4 class="mt-4">Pasos a seguir:</h4>
+    <ol>
+        {% for paso in receta.pasos_lista %}
+            <li>{{ paso }}</li>
+        {% endfor %}
+    </ol>
+    {% else %}
+        <p>No hay pasos disponibles para esta receta.</p>
+    {% endif %}
+
+    <div class="text-center mt-4">
+        <a href="{% url 'recetas_con_ingredientes' %}" class="btn btn-secondary fw-bold">
+            Volver a recetas sugeridas
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

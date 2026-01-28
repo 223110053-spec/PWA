@@ -1,0 +1,197 @@
+[
+{
+  "model": "mattel.receta",
+  "pk": 2,
+  "fields": {
+    "nombre": "Guisado de Res",
+    "descripcion": "Carne de res cocida lentamente con verduras y especias.",
+    "tipo": "guisado",
+    "ingredientes": [
+      "Carne de res",
+      "Zanahoria",
+      "Papa",
+      "Cebolla",
+      "Ajo",
+      "Caldo de res"
+    ],
+    "pasos": [
+      "Saltear la cebolla y el ajo.",
+      "Agregar la carne y dorarla.",
+      "Añadir las verduras picadas.",
+      "Verter caldo y cocinar 40 minutos a fuego bajo."
+    ]
+  }
+}
+,
+  {
+    "model": "mattel.receta",
+    "pk": 2,
+    "fields": {
+      "nombre": "Guisado de Res",
+      "descripcion": "Carne de res cocida lentamente con verduras y especias.",
+      "tipo": "guisado"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 3,
+    "fields": {
+      "nombre": "Sopa de Lentejas",
+      "descripcion": "Sopa nutritiva con lentejas, zanahoria y apio.",
+      "tipo": "sopa"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 4,
+    "fields": {
+      "nombre": "Pastel de Chocolate",
+      "descripcion": "Postre esponjoso con intenso sabor a cacao.",
+      "tipo": "postre"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 5,
+    "fields": {
+      "nombre": "Agua de Horchata",
+      "descripcion": "Bebida refrescante hecha con arroz y canela.",
+      "tipo": "bebida"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 6,
+    "fields": {
+      "nombre": "Sandwich de Jamón y Queso",
+      "descripcion": "Clásico sandwich con pan tostado, jamón y queso.",
+      "tipo": "sandwich"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 7,
+    "fields": {
+      "nombre": "Espagueti a la Boloñesa",
+      "descripcion": "Pasta italiana con salsa de carne y tomate.",
+      "tipo": "pasta"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 8,
+    "fields": {
+      "nombre": "Filete de Res Asado",
+      "descripcion": "Carne jugosa asada a la parrilla con especias.",
+      "tipo": "carne"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 9,
+    "fields": {
+      "nombre": "Ceviche de Camarón",
+      "descripcion": "Mariscos frescos marinados en jugo de limón.",
+      "tipo": "mariscos"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 10,
+    "fields": {
+      "nombre": "Tacos Veganos",
+      "descripcion": "Tacos rellenos de vegetales y proteína vegetal.",
+      "tipo": "vegana"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 11,
+    "fields": {
+      "nombre": "Pizza Margarita",
+      "descripcion": "Pizza italiana con tomate, mozzarella y albahaca.",
+      "tipo": "pizza"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 12,
+    "fields": {
+      "nombre": "Tacos al Pastor",
+      "descripcion": "Tacos mexicanos con carne de cerdo marinada.",
+      "tipo": "tacos"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 13,
+    "fields": {
+      "nombre": "Wrap de Pollo",
+      "descripcion": "Tortilla rellena de pollo, lechuga y aderezo.",
+      "tipo": "wrap"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 14,
+    "fields": {
+      "nombre": "Arroz a la Mexicana",
+      "descripcion": "Arroz rojo con jitomate, zanahoria y chícharo.",
+      "tipo": "arroz"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 15,
+    "fields": {
+      "nombre": "Cereal con Leche",
+      "descripcion": "Desayuno rápido con cereal integral y leche.",
+      "tipo": "cereal"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 16,
+    "fields": {
+      "nombre": "Pan de Ajo",
+      "descripcion": "Pan horneado con mantequilla y ajo.",
+      "tipo": "pan"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 17,
+    "fields": {
+      "nombre": "Dulce de Leche",
+      "descripcion": "Postre tradicional hecho con leche caramelizada.",
+      "tipo": "dulce"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 18,
+    "fields": {
+      "nombre": "Palomitas Saladas",
+      "descripcion": "Botana ligera de maíz inflado con sal.",
+      "tipo": "salado"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 19,
+    "fields": {
+      "nombre": "Ensalada Light",
+      "descripcion": "Ensalada fresca baja en calorías.",
+      "tipo": "light"
+    }
+  },
+  {
+    "model": "mattel.receta",
+    "pk": 20,
+    "fields": {
+      "nombre": "Huevos Rápidos",
+      "descripcion": "Platillo sencillo de huevos revueltos listo en minutos.",
+      "tipo": "rápida"
+    }
+  }
+]

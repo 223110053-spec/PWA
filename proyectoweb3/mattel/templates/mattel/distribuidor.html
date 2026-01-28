@@ -1,0 +1,52 @@
+{% extends 'mattel/base.html' %}
+{% load static %}
+{% block app_title %} ¿Quienes somos?{% endblock %}
+{% block app_content %}
+
+
+<div style="background-color: #f5e8d0 ; padding: 20px; border-radius: 10px;">
+
+<h2 class="mb-4 text-center fw-bold" style="margin-top: 50px;">¿Quienes somos?</h2>
+
+<p style="
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-weight: 500;
+">
+    Ofrecer recetas fáciles de seguir, deliciosas y accesibles para personas de todos los niveles de experiencia en la cocina.
+    <br>
+    <span style="font-size: 16px; color: #555;">
+     Ser una fuente de inspiración y guía para quienes buscan cocinar en casa, probar nuevos sabores y disfrutar de la comida.
+    </span>
+</p>
+
+<div class="row justify-content-center">
+  <div class="col-md-4 mb-4 text-center">
+    <div style="width: 250px; height: 180px; margin: 0 auto;">
+      <img src="{% static 'mattel/img/p.jpg' %}" 
+           style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4 text-center">
+    <div style="width: 250px; height: 180px; margin: 0 auto;">
+      <img src="{% static 'mattel/img/pp.jpg' %}" 
+           style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4 text-center">
+    <div style="width: 250px; height: 180px; margin: 0 auto;">
+      <img src="{% static 'mattel/img/ppp.jpg' %}" 
+           style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+    </div>
+  </div>
+</div>
+
+</div> 
+
+{% endblock %}

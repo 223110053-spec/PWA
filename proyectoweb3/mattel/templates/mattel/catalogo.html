@@ -1,0 +1,223 @@
+{% extends 'mattel/base.html' %} 
+{% load static %}
+
+{% block app_title %}Catálogo - {{ categoria }}{% endblock %}
+
+{% block app_content %}
+
+<style>
+
+    .fondo-rosa {
+        background-color: #f5e8d0  !important;
+        min-height: 100vh;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .layout-catalogo {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 25px;
+        align-items: start;
+    }
+
+    .grid-productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 25px;
+        padding: 10px 20px;
+    }
+
+    .item-ing {
+        background: #fff;
+        border-radius: 15px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        transition: 0.3s ease;
+    }
+    .item-ing:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    .item-ing img {
+        width: 100%;
+        height: 160px;
+        object-fit: contain;
+        border-radius: 12px;
+    }
+
+    .item-ing h4 {
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .check-ing {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #444;
+    }
+
+    .check-ing input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        accent-color: #ffb6d9; 
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .panel-seleccionados {
+        background: #ffffffee;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+        max-height: 80vh;
+        overflow-y: auto;
+        position: sticky;
+        top: 20px;
+    }
+
+    .panel-seleccionados h3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .btn-estetico {
+        padding: 6px 14px;        
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 10px;
+        border: 2px solid black;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        transition: 0.25s ease;
+        display: inline-block;
+        cursor: pointer;
+
+        background-color: #f5e8d0 !important;
+        color: black !important;
+    }
+
+    
+    .btn-estetico:hover {
+        background-color: #c49a6c !important;
+        transform: scale(1.06);
+        color: black !important;
+    }
+
+
+    .btn-catalogo,
+    .btn-limon,
+    .btn-rojo {
+        background-color: #f5e8d0 !important;
+        color: black !important;
+        border-color: black !important;
+    }
+    .btn-catalogo:hover,
+    .btn-limon:hover,
+    .btn-rojo:hover {
+        background-color: #c49a6c !important;
+        color: black !important;
+    }
+
+    .subir-boton {
+        margin-bottom: 40px !important;
+    }
+
+</style>
+
+<div class="fondo-rosa">
+
+<script>
+function limpiarLista() {
+    fetch("{% url 'limpiar_ingredientes' %}")
+        .then(() => location.reload());
+}
+</script>
+
+<h2 class="text-center mb-4">Ingredientes de {{ categoria|title }}</h2>
+
+<div class="layout-catalogo">
+
+
+    <div>
+
+        <form method="POST" action="{% url 'seleccionar_ingredientes' %}">
+            {% csrf_token %}
+
+            <div class="grid-productos">
+                {% for p in productos %}
+                <div class="item-ing">
+                    {% if p.imagen %}
+                        <img src="{{ p.imagen.url }}">
+                    {% else %}
+                        <img src="{% static 'mattel/img/noimg.jpg' %}">
+                    {% endif %}
+
+                    <h4 class="mt-2">{{ p.nombre }}</h4>
+
+                    <div class="check-ing">
+                        <input type="checkbox" name="ingredientes" value="{{ p.nombre }}">
+                        Seleccionar
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="text-center mt-4 subir-boton">
+                <button class="btn-estetico btn-catalogo" type="submit">
+                    Enviar ingredientes
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+  
+    <div class="panel-seleccionados">
+
+        <h3>Ingredientes seleccionados</h3>
+
+        <ul class="list-group mb-4">
+            {% if request.session.ingredientes_seleccionados %}
+                {% for ing in request.session.ingredientes_seleccionados %}
+                    <li class="list-group-item">{{ ing }}</li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item text-center" style="color:#777;">
+                    No hay ingredientes seleccionados
+                </li>
+            {% endif %}
+        </ul>
+
+        <div class="d-flex justify-content-center gap-3">
+
+            <a href="{% url 'recetas_con_ingredientes' %}" 
+               class="btn-estetico btn-limon">
+                Ver recetas
+            </a>
+
+            <button class="btn-estetico btn-rojo" onclick="limpiarLista()">
+                Limpiar lista
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div> 
+
+{% endblock %}

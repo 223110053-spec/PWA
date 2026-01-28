@@ -1,0 +1,86 @@
+{% extends 'mattel/base.html' %}
+{% load static %}
+
+{% block app_title %}Productos{% endblock %}
+
+{% block app_content %}
+
+
+<div style="background-color: #f5e8d0 ; padding: 20px; border-radius: 10px;">
+
+
+<style>
+    .btn-categoria {
+        border: 4px solid #c49a6c !important;  
+        border-radius: 12px;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+        transition: transform 0.2s ease;
+
+       
+        text-decoration: none !important;
+        color: white !important; 
+    }
+
+    .btn-categoria span {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none !important;
+        color: white !important; 
+        font-weight: 600;
+    }
+
+    .btn-categoria img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .btn-categoria:hover {
+        transform: scale(1.03);
+    }
+</style>
+
+<link rel="stylesheet" href="{% static 'mattel/css/style.css' %}">
+
+<h2 class="text-center mb-5" style="color: black;">Selecciona Tus Ingredientes</h2>
+
+<div class="categorias-container">
+
+  <a href="{% url 'catalogo_categoria' 'vegetales' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/vegetables.jpg' %}">
+    <span>Vegetales</span>
+  </a>
+
+  <a href="{% url 'catalogo_categoria' 'frutas' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/frutas.jpg' %}">
+    <span>Frutas</span>
+  </a>
+
+  <a href="{% url 'catalogo_categoria' 'carnes' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/carnes.jpg' %}">
+    <span>Carnes</span>
+  </a>
+
+  <a href="{% url 'catalogo_categoria' 'legumbres' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/legunbres.jpg' %}">
+    <span>Legumbres</span>
+  </a>
+
+  <a href="{% url 'catalogo_categoria' 'cereales' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/cereales.jpg' %}">
+    <span>Cereales</span>
+  </a>
+
+  <a href="{% url 'catalogo_categoria' 'condimentos' %}" class="btn-categoria">
+    <img src="{% static 'mattel/img/condimentos.jpg' %}">
+    <span>Condimentos y Especias</span>
+  </a>
+
+</div>
+
+</div>
+
+{% endblock %}

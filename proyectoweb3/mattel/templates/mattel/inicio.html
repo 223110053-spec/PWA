@@ -1,0 +1,47 @@
+{% extends 'mattel/base.html' %}
+{% load static %}
+{% block app_title %}Inicio{% endblock %}
+{% block app_content %}
+
+<div style="margin: 0; padding: 0; width: 100%;">
+
+  <div class="text-white"
+       style="background-image: url('{% static 'mattel/img/fondoc.jpg' %}');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              height: 100vh;
+              width: 100vw;
+              position: relative;
+              left: 50%;
+              right: 50%;
+              margin-left: -50vw;
+              margin-right: -50vw;
+              overflow: hidden;">
+
+   
+    <div style="position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: rgba(0, 0, 0, 0.35);">
+    </div>
+
+    <div style="position: relative;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;">
+      <h1 class="display-4 fw-bold mb-2">Sabores que inspiran, recetas que conquistan.</h1>
+      <p class="lead fw-bold mb-3">descubre, cocina y disfruta.</p>
+    
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

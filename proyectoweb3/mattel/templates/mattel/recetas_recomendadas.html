@@ -1,0 +1,82 @@
+{% extends "mattel/base.html" %} 
+{% load static %}
+
+{% block app_title %}Recetas recomendadas{% endblock %}
+
+{% block app_content %}
+
+<style>
+  
+    .fondo-rosa {
+        background-color: #f5e8d0  !important;
+        min-height: 100vh;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+  
+    .sombra-negra {
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.45) !important;
+    }
+</style>
+
+<div class="fondo-rosa">
+
+<h2 class="text-center mb-4">Recetas sugeridas</h2>
+
+{% if not sugeridas and not recetas and not recetas_generadas %}
+<p class="text-center text-danger fw-bold mt-3">
+    No se encontraron recetas con los ingredientes seleccionados.
+</p>
+{% endif %}
+
+
+<div class="sombra-negra" style="
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+">
+
+    <h5 class="text-center fw-bold">Ingredientes seleccionados:</h5>
+    <p class="text-center">{{ ingredientes|join:", " }}</p>
+
+</div>
+
+{% if recetas_generadas %}
+<hr class="my-4">
+
+<div class="row">
+
+    {% for rec in recetas_generadas %}
+    <div class="col-md-4 mb-4">
+        <div class="card sombra-negra" style="border-radius: 18px; overflow: hidden;">
+
+            <div class="card-body">
+
+                <h4 class="text-center fw-bold">{{ rec.nombre }}</h4>
+
+                <p class="text-center" style="font-size: 0.9rem;">
+                    {{ rec.descripcion }}
+                </p>
+
+                <ul style="font-size: 0.85rem;">
+                    {% for paso in rec.pasos %}
+                    <li>{{ paso }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+{% endif %}
+
+
+</div>
+{% endblock %}
