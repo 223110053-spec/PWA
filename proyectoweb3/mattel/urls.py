@@ -21,6 +21,10 @@ urlpatterns = [
     path('guardar-receta/', views.guardar_receta, name='guardar_receta'),
     path('seleccionar/', views.seleccionar_ingredientes, name='seleccionar_ingredientes'),
     path('limpiar/', views.limpiar_ingredientes, name='limpiar_ingredientes'),
+    
+    #rutas de la API
+
+    path('api/recetas-generadas/', views.api_recetas_generadas, name='api_recetas_generadas'),
 
 
 ]

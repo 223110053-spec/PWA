@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Producto, Receta
 from .forms import ContactoForm
 from django.contrib import messages
+from django.http import JsonResponse
 import random
 
 
@@ -268,4 +269,27 @@ def limpiar_ingredientes(request):
     if 'ingredientes_seleccionados' in request.session:
         request.session['ingredientes_seleccionados'] = []
     return redirect(request.META.get('HTTP_REFERER', '/'))
+
+#/////////////////////////////////////////////////////////////////////
+
+def api_recetas_generadas(request):
+    """
+    Endpoint que devuelve recetas generadas en formato JSON
+    """
+    ingredientes = request.session.get("ingredientes_seleccionados", [])
+    
+    if not ingredientes:
+        return JsonResponse({'recetas': [], 'ingredientes': []})
+    
+    # Generar 3 recetas dinámicas
+    recetas_generadas = []
+    for _ in range(3):
+        receta = generar_receta_profesional(ingredientes)
+        if receta:
+            recetas_generadas.append(receta)
+    
+    return JsonResponse({
+        'recetas': recetas_generadas,
+        'ingredientes': ingredientes
+    })
 
